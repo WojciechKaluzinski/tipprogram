@@ -4,14 +4,19 @@
   <OriginalElement />
   <nodes>
     <node x="0.0" y="0.0">wojtek.Greetings</node>
-    <node x="0.0" y="118.0">wojtek.HelloWorld</node>
+    <node x="9.5" y="123.0">wojtek.HelloWorld</node>
   </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Group" zoom="1.0" x="166.0" y="95.0" />
-  <SelectedNodes>
-    <node>wojtek.HelloWorld</node>
-  </SelectedNodes>
+  <edges>
+    <edge source="wojtek.HelloWorld" target="wojtek.Greetings">
+      <point x="-36.5" y="-25.0" />
+      <point x="46.0" y="98.0" />
+      <point x="41.25" y="98.0" />
+      <point x="-41.25" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="166.0" y="95.5" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>
